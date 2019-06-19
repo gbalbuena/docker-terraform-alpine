@@ -1,5 +1,7 @@
 FROM alpine:edge
 
+MAINTAINER Juan Gabriel Balbuena Borba (gabrielbalbuena@gmail.com)
+
 RUN apk add --update \
   ca-certificates \
   terraform
