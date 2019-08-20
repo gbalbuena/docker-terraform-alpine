@@ -14,4 +14,4 @@ WORKDIR /app
 RUN aws --version
 RUN terraform -v
 
-CMD echo "Hello World"
+ENTRYPOINT [ "/usr/bin/terraform" ]

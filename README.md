@@ -3,10 +3,17 @@
 ## Build image
 
 ```bash
-$ docker build -t terraform-alpine .
+$ docker build -t gbalbuena/terraform-alpine:v0.12.0 .
 ...
 Successfully built 1ad3332335ed
-Successfully tagged terraform-alpine:latest
+Successfully tagged terraform-alpine:v0.12.0
+```
+
+## Push
+
+```bash
+$ docker push gbalbuena/terraform-alpine:v0.12.0
+...
 ```
 
 ## List images
