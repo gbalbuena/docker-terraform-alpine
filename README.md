@@ -2,6 +2,15 @@
 
 Includes AWSCLI and Terraform latest version available in edge repository.
 
+## Usage
+
+Run:
+
+```bash
+$ docker run gbalbuena/terraform-alpine:v0.12.0 version
+Terraform v0.12.0
+```
+
 ## Build image
 
 ```bash
