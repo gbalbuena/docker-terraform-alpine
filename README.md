@@ -1,5 +1,7 @@
 # Terraform / Alpine Linux Docker
 
+Includes AWSCLI and Terraform latest version available in edge repository.
+
 ## Build image
 
 ```bash
