@@ -1,5 +1,8 @@
 FROM alpine:edge
 
+LABEL author="Juan Gabriel Balbuena Borba (gabrielbalbuena@gmail.com)"
+LABEL version="v0.12.0"
+
 RUN apk add --update \
   ca-certificates \
   terraform
